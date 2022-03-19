@@ -20,7 +20,7 @@ public class LoginTest extends BaseClass {
 		loginPage = new LoginPage();
 	}
 
-	// @Test
+	@Test
 	public void loginFailureTest() {
 
 		loginPage.login("xyz@abc.com", "Abc12345");
@@ -30,10 +30,10 @@ public class LoginTest extends BaseClass {
 
 	}
 
-	// @Test
+	@Test
 	public void loginSuccessTest() {
 
-		loginPage.login("", "");
+		loginPage.login("", "");		
 	}
 
 	// Run with testng.xml since this params are given from suite
