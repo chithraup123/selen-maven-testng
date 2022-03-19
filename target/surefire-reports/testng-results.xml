@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="58468" started-at="2022-03-13T10:20:28 IST" finished-at="2022-03-13T10:21:26 IST">
+  <suite name="Suite" duration-ms="41200" started-at="2022-03-19T09:38:16 IST" finished-at="2022-03-19T09:38:58 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="58468" started-at="2022-03-13T10:20:28 IST" finished-at="2022-03-13T10:21:26 IST">
+    <test name="Test" duration-ms="41200" started-at="2022-03-19T09:38:16 IST" finished-at="2022-03-19T09:38:58 IST">
       <class name="testcases.LoginTest">
-        <test-method status="PASS" signature="dataSetup()[pri:0, instance:testcases.LoginTest@2781e022]" name="dataSetup" is-config="true" duration-ms="1492" started-at="2022-03-13T10:20:28 IST" finished-at="2022-03-13T10:20:29 IST">
+        <test-method status="PASS" signature="dataSetup()[pri:0, instance:testcases.LoginTest@2781e022]" name="dataSetup" is-config="true" duration-ms="2307" started-at="2022-03-19T09:38:16 IST" finished-at="2022-03-19T09:38:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataSetup -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginTest@2781e022]" name="setUp" is-config="true" duration-ms="9225" started-at="2022-03-13T10:20:29 IST" finished-at="2022-03-13T10:20:38 IST">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginTest@2781e022]" name="setUp" is-config="true" duration-ms="8695" started-at="2022-03-19T09:38:19 IST" finished-at="2022-03-19T09:38:27 IST">
           <params>
             <param index="0">
               <value>
@@ -22,19 +22,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.LoginTest@2781e022]" name="beforeMethod" is-config="true" duration-ms="65" started-at="2022-03-13T10:20:38 IST" finished-at="2022-03-13T10:20:39 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.LoginTest@2781e022]" name="beforeMethod" is-config="true" duration-ms="75" started-at="2022-03-19T09:38:27 IST" finished-at="2022-03-19T09:38:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="externalDataTest()[pri:0, instance:testcases.LoginTest@2781e022]" name="externalDataTest" duration-ms="14588" started-at="2022-03-13T10:20:39 IST" finished-at="2022-03-13T10:20:53 IST">
+        <test-method status="PASS" signature="externalDataTest()[pri:0, instance:testcases.LoginTest@2781e022]" name="externalDataTest" duration-ms="12934" started-at="2022-03-19T09:38:27 IST" finished-at="2022-03-19T09:38:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- externalDataTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginTest@2781e022]" name="tearDown" is-config="true" duration-ms="2017" started-at="2022-03-13T10:20:53 IST" finished-at="2022-03-13T10:20:55 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginTest@2781e022]" name="tearDown" is-config="true" duration-ms="932" started-at="2022-03-19T09:38:40 IST" finished-at="2022-03-19T09:38:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginTest@2781e022]" name="setUp" is-config="true" duration-ms="6613" started-at="2022-03-13T10:20:55 IST" finished-at="2022-03-13T10:21:02 IST">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.LoginTest@2781e022]" name="setUp" is-config="true" duration-ms="4552" started-at="2022-03-19T09:38:41 IST" finished-at="2022-03-19T09:38:46 IST">
           <params>
             <param index="0">
               <value>
@@ -45,7 +45,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="paramTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@2781e022]" name="paramTest" duration-ms="21347" started-at="2022-03-13T10:21:02 IST" finished-at="2022-03-13T10:21:23 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.LoginTest@2781e022]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-03-19T09:38:46 IST" finished-at="2022-03-19T09:38:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="paramTest(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginTest@2781e022]" name="paramTest" duration-ms="10076" started-at="2022-03-19T09:38:46 IST" finished-at="2022-03-19T09:38:56 IST">
           <params>
             <param index="0">
               <value>
@@ -61,15 +65,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paramTest -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.LoginTest@2781e022]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2022-03-13T10:21:02 IST" finished-at="2022-03-13T10:21:02 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginTest@2781e022]" name="tearDown" is-config="true" duration-ms="2063" started-at="2022-03-13T10:21:23 IST" finished-at="2022-03-13T10:21:25 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.LoginTest@2781e022]" name="tearDown" is-config="true" duration-ms="825" started-at="2022-03-19T09:38:56 IST" finished-at="2022-03-19T09:38:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="DataTearDown()[pri:0, instance:testcases.LoginTest@2781e022]" name="DataTearDown" is-config="true" duration-ms="909" started-at="2022-03-13T10:21:25 IST" finished-at="2022-03-13T10:21:26 IST">
+        <test-method status="PASS" signature="DataTearDown()[pri:0, instance:testcases.LoginTest@2781e022]" name="DataTearDown" is-config="true" duration-ms="710" started-at="2022-03-19T09:38:57 IST" finished-at="2022-03-19T09:38:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DataTearDown -->
