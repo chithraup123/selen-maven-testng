@@ -42,12 +42,11 @@ public class LoginTest extends BaseClass {
 	public void paramTest(String usrName, String pwd) {
 
 		loginPage.login(usrName, pwd);
+		Assert.assertEquals(false, true, "Failed Testcase.....");
 	}
 
 	@Test
 	public void externalDataTest() {
-
-		System.out.println("Hellooooooooooooooo");
 
 		String UserNameVal = sheet.getRow(1).getCell(0).getStringCellValue();
 		String PasswordVal = sheet.getRow(1).getCell(1).getStringCellValue();
